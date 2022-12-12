@@ -1,19 +1,22 @@
 #include <stdio.h>
+
 /**
  * main - Prints the letters of the alphabet without q and e
  *
  * Return: Always (Success)
  */
-int main(void) 
+int main(void)
 {
-  int ch;
-  for (ch = 'a'; ch <= 'z'; ch++)
-    {
-      if (ch != 'e' && ch != 'q')
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	  putchar(ch); 
-	} 
-    }
-  putchar('\n');
-  return (0); 
+		if (ch != 'e' && ch != 'q')
+		{
+		putchar(ch);
+		}
+	}
+	putchar('\n');
+
+	return (0);
 }
