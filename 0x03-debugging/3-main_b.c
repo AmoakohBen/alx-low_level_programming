@@ -13,11 +13,11 @@ int main(void)
     int day;
     int year;
 
-    month = 02;
+    month = 4;
     day = 01;
-    year = 2000;
+    year = 1997;
 
-    printf("Date: %02d/%02d/%02d\n", month, day, year);
+    printf("Date: %02d/%02d/%04d\n", month, day, year);
 
     day = convert_day(month, day);
 
