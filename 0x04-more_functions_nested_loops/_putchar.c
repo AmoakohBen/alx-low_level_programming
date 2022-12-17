@@ -10,7 +10,7 @@
 int _putchar(char c)
 
 int _isupper(int c);
-
+int _isdigit(int c);
 {
 	return (write(1, &c, 1));
 }
