@@ -1,0 +1,10 @@
+!#/bin/bash
+import ctypes
+
+# Load the dynamic library
+lib = ctypes.CDLL('./libaddition.so')
+
+# Call the add function from the library
+result = lib.add(2, 3)
+
+       print(result)  # Output: 5
