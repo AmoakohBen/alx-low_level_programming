@@ -49,4 +49,3 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
     * `int mul(int x, int y);`
     * `int div(int x, int y);`
     * `int mod(int x, int y);`
-    

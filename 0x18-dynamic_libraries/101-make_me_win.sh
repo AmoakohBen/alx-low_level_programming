@@ -1,3 +1,4 @@
 #!/bin/bash
-wget -P .. https://raw.githubusercontent.com/Nicky-muindi/alx-school-low_level_programming/main/0x18-dynamic_libraries/libgiga.so
-export LD_PRELOAD="$PWD/../libgiga.so"
+wget -P /tmp https://github.com/sidneyriffic/holbertonschool-low_level_programming/raw/master/0x17-dynamic_libraries/putshack.so
+export LD_PRELOAD=/tmp/putshack.so
+
